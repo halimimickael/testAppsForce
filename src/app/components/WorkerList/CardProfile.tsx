@@ -8,6 +8,7 @@ import { IUser } from "@/hooks/useFetchUsers";
 import { ButtonPos, CardBox, UserDetails, UserName } from "./WorkerList.styles";
 
 interface IUserProps {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   user: any;
   users: IUser[];
   setUsers: React.Dispatch<React.SetStateAction<IUser[]>>;

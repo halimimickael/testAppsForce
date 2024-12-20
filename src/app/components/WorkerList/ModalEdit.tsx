@@ -16,6 +16,7 @@ interface IUserEditModalProps {
     country: string;
     photo?: File | null;
   };
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   onSave: (data: any) => void;
   existingUsers: { email: string }[];
   isNewWorker?: boolean;
